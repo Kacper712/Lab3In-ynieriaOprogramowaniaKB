@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1773737839 source:c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\pracownik.cpp
+	"Pracownik.h"
+	<iostream>
+
+1773737772 c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\pracownik.h
+	<string>
+
+1773736920 source:c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\main.cpp
+	<iostream>
+	"Zespol.h"
+	"Programista.h"
+
+1773737631 c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\zespol.h
+	"Programista.h"
+	<string>
+	<vector>
+
+1773737987 c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\programista.h
+	<string>
+	"Pracownik.h"
+
+1773737878 source:c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\zespol.cpp
+	"Zespol.h"
+	"Programista.h"
+	<iostream>
+
+1773737013 source:c:\users\student\desktop\ipkb\lab3\zarzadzaniezespolem1\programista.cpp
+	"Programista.h"
+
