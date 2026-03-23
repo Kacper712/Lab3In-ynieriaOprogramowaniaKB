@@ -1,0 +1,9 @@
+Dziedziną problemu jest system zarządzania personelem w firmie informatycznej.
+
+Zidentyfikowano następujące obiekty i relacje:
+
+Pracownik (X3) – klasa bazowa, reprezentująca ogólnego zatrudnionego w firmie (posiada m.in. imię, nazwisko i pensję).
+
+Programista (X2) – jest to specyficzny rodzaj Pracownika. Występuje tutaj relacja generalizacji (dziedziczenia): Programista dziedziczy cechy Pracownika, rozszerzając je o atrybuty takie jak język programowania czy poziom doświadczenia.
+
+Zespół (X1) – reprezentuje zespół projektowy w firmie. Pomiędzy Zespołem a Programistą występuje relacja agregacji (0..*). Oznacza to, że Zespół składa się z zera lub wielu Programistów, ale Programiści mogą istnieć niezależnie od Zespołu (np. po rozwiązaniu zespołu nadal są pracownikami firmy).
